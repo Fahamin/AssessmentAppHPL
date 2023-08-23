@@ -1,5 +1,10 @@
 package com.fahamin.assessmentapphpl.api;
 
+import com.fahamin.assessmentapphpl.model.TaskModel;
+import com.fahamin.assessmentapphpl.model.TaskModelItem;
+
+import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
@@ -32,7 +37,7 @@ public interface ApiService {
 
     @FormUrlEncoded
     @POST("TaskData")
-    Call<String> TaskData(
+    Call<List<TaskModelItem>> TaskData(
             @Field("contact_number") String contact_Number
     );
 }

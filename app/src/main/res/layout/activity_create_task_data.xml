@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
-        android:text="Registration"
+        android:text="Task Create"
         android:textSize="25dp"
         android:textStyle="bold" />
 
@@ -20,10 +20,10 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="20dp"
-        android:text="Full Name" />
+        android:text="Title" />
 
     <EditText
-        android:id="@+id/txtName"
+        android:id="@+id/txtTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
@@ -34,34 +34,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
-        android:text="Email" />
+        android:text="Details" />
 
     <EditText
-        android:id="@+id/txtEmail"
+        android:id="@+id/txtDetails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:ems="10" />
 
-    <TextView
-        android:id="@+id/thirdTxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:text="ContactNumber" />
-
-    <EditText
-        android:id="@+id/txtPwd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp" />
-
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnTask"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
-        android:text="Register" />
+        android:text="CreateTask" />
 
 
 </LinearLayout>

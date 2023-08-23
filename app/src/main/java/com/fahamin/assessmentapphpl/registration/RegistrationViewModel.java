@@ -4,6 +4,7 @@ import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LiveData;
 
 import com.fahamin.assessmentapphpl.api.ApiService;
 import com.fahamin.assessmentapphpl.api.ApiUtils;
@@ -21,8 +22,8 @@ public class RegistrationViewModel extends AndroidViewModel {
         repository = new Repository(application);
     }
 
-    void registration(String name, String email, String contactNum) {
-        repository.registration(name, email, contactNum);
+    LiveData<String> registration(String name, String email, String contactNum) {
+       return repository.registration(name, email, contactNum);
     }
 
 

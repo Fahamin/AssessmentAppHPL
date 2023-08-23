@@ -1,4 +1,4 @@
-package com.fahamin.assessmentapphpl
+package com.fahamin.assessmentapphpl.reciver
 
 import android.content.BroadcastReceiver
 import android.content.Context

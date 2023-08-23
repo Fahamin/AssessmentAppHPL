@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
-        android:text="Registration"
+        android:text="Home Screen"
         android:textSize="25dp"
         android:textStyle="bold" />
 
@@ -57,11 +57,17 @@
         android:layout_marginLeft="100dp" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnCreateNew"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
-        android:text="Register" />
+        android:text="Create New" />
 
+    <Button
+        android:id="@+id/btnhistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="History" />
 
 </LinearLayout>
